@@ -1,0 +1,141 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 603 >>
+stream
+0.05 0.23 0.64 rg 0 0 595 842 re f
+0.12 0.37 0.85 rg 0 500 595 342 re f
+1 1 1 rg
+BT /F2 40 Tf 60 708 Td (ChatGPT PRO) Tj ET
+BT /F2 20 Tf 60 672 Td (Practical Subscriber Handbook) Tj ET
+0.86 0.93 1 rg 60 192 470 132 re f
+BT /F1 13 Tf 60 632 Td (A blue-themed starter guide for beginners: mode differences, PRO) Tj ET
+BT /F1 13 Tf 60 614 Td (advantages, and detailed usage tactics for daily work.) Tj ET
+BT /F2 16 Tf 80 272 Td (Blue Edition eBook Style) Tj ET
+BT /F1 11 Tf 80 240 Td (Tip: Use role + context + output format constraints in one) Tj ET
+BT /F1 11 Tf 80 226 Td (prompt for best results.) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Length 1514 >>
+stream
+1 1 1 rg 0 0 595 842 re f
+0.12 0.25 0.7 rg 0 790 595 52 re f
+1 1 1 rg BT /F2 18 Tf 40 808 Td (1. Standard Mode vs PRO Mode) Tj ET
+BT /F1 12 Tf 40 758 Td (- Standard mode is sufficient for short Q&A, quick checks, and simple rewrites.) Tj ET
+BT /F1 12 Tf 40 736 Td (- PRO mode is stronger with long context, multi-step constraints, and final-form) Tj ET
+BT /F1 12 Tf 40 720 Td (outputs.) Tj ET
+BT /F1 12 Tf 40 698 Td (- Beginner takeaway: PRO generally reduces the number of prompt-revision loops.) Tj ET
+0.12 0.25 0.7 rg 40 628 515 24 re f
+1 1 1 rg BT /F2 11 Tf 48 636 Td (Category) Tj ET
+1 1 1 rg BT /F2 11 Tf 220 636 Td (Standard) Tj ET
+1 1 1 rg BT /F2 11 Tf 390 636 Td (PRO) Tj ET
+0.93 0.96 1 rg 40 602 515 22 re f
+0 0 0 rg BT /F1 10 Tf 48 609 Td (Complex Prompt Reliability) Tj ET
+BT /F1 10 Tf 220 609 Td (Moderate) Tj ET
+BT /F1 10 Tf 390 609 Td (Higher under multi-constraint requests) Tj ET
+0.88 0.93 1 rg 40 576 515 22 re f
+0 0 0 rg BT /F1 10 Tf 48 583 Td (Long Task Handling) Tj ET
+BT /F1 10 Tf 220 583 Td (Basic continuity) Tj ET
+BT /F1 10 Tf 390 583 Td (Strong continuity and structure) Tj ET
+0.93 0.96 1 rg 40 550 515 22 re f
+0 0 0 rg BT /F1 10 Tf 48 557 Td (Draft Quality) Tj ET
+BT /F1 10 Tf 220 557 Td (Rough to intermediate) Tj ET
+BT /F1 10 Tf 390 557 Td (Near-final professional drafts) Tj ET
+0.88 0.93 1 rg 40 524 515 22 re f
+0 0 0 rg BT /F1 10 Tf 48 531 Td (Revision Count) Tj ET
+BT /F1 10 Tf 220 531 Td (Often multiple rounds) Tj ET
+BT /F1 10 Tf 390 531 Td (Usually fewer correction rounds) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Length 1181 >>
+stream
+1 1 1 rg 0 0 595 842 re f
+0.12 0.25 0.7 rg 0 790 595 52 re f
+1 1 1 rg BT /F2 18 Tf 40 808 Td (2. Why PRO mode improves workflow) Tj ET
+0.93 0.96 1 rg 38 748 520 30 re f
+BT /F1 12 Tf 46 760 Td (- Faster turnaround by combining planning, drafting, and editing in one prompt) Tj ET
+BT /F1 12 Tf 46 744 Td (flow.) Tj ET
+0.93 0.96 1 rg 38 706 520 30 re f
+BT /F1 12 Tf 46 718 Td (- Higher practical quality for proposals, reports, scripts, and learning) Tj ET
+BT /F1 12 Tf 46 702 Td (materials.) Tj ET
+0.93 0.96 1 rg 38 664 520 30 re f
+BT /F1 12 Tf 46 676 Td (- More dependable handling of tone, length, audience, and formatting) Tj ET
+BT /F1 12 Tf 46 660 Td (constraints.) Tj ET
+0.93 0.96 1 rg 38 622 520 30 re f
+BT /F1 12 Tf 46 634 Td (- Better scalability from personal study tasks to professional deliverables.) Tj ET
+0.15 0.39 0.92 rg 40 486 120 56 re f
+1 1 1 rg BT /F2 11 Tf 50 516 Td (1. Define Goal) Tj ET
+0.15 0.39 0.92 rg 175 486 120 56 re f
+1 1 1 rg BT /F2 11 Tf 185 516 Td (2. Add Context) Tj ET
+0.15 0.39 0.92 rg 310 486 120 56 re f
+1 1 1 rg BT /F2 11 Tf 320 516 Td (3. Generate) Tj ET
+0.15 0.39 0.92 rg 445 486 120 56 re f
+1 1 1 rg BT /F2 11 Tf 455 516 Td (4. Review) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Length 973 >>
+stream
+1 1 1 rg 0 0 595 842 re f
+0.12 0.25 0.7 rg 0 790 595 52 re f
+1 1 1 rg BT /F2 18 Tf 40 808 Td (3. Other must-know functions) Tj ET
+BT /F1 12 Tf 40 752 Td (* Custom Instructions: persist your role, tone, and output style defaults.) Tj ET
+BT /F1 12 Tf 40 728 Td (* File analysis workflow: extract actions from PDFs/docs and convert to plans.) Tj ET
+BT /F1 12 Tf 40 704 Td (* Iterative prompting: preserve content while improving structure and clarity.) Tj ET
+BT /F1 12 Tf 40 680 Td (* Quality-check pass: request typo fixes, logic checks, and repetition removal.) Tj ET
+BT /F1 12 Tf 40 656 Td (* Constraint-first prompts: set length, forbid fluff, and enforce output format.) Tj ET
+0.86 0.93 1 rg 36 112 525 88 re f
+0.12 0.23 0.64 rg BT /F2 14 Tf 48 172 Td (Conclusion) Tj ET
+BT /F1 12 Tf 48 150 Td (PRO is not only about better answers. It is a practical output-production system) Tj ET
+BT /F1 12 Tf 48 134 Td (that helps beginners reach reliable results more quickly.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Pages /Count 4 /Kids [8 0 R 9 0 R 10 0 R 11 0 R] >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+10 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+12 0 obj
+<< /Title (ChatGPT PRO Guide Blue Edition) /Author (Codex Assistant) /Subject (Practical usage guide for ChatGPT PRO subscribers) >>
+endobj
+13 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000000808 00000 n 
+0000002374 00000 n 
+0000003607 00000 n 
+0000004631 00000 n 
+0000004708 00000 n 
+0000004844 00000 n 
+0000004980 00000 n 
+0000005117 00000 n 
+0000005254 00000 n 
+0000005403 00000 n 
+trailer
+<< /Size 14 /Root 13 0 R /Info 12 0 R >>
+startxref
+5453
+%%EOF
