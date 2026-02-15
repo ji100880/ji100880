@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT Pro 결제자 지침서</title>
+  <style>
+    @page { size: A4; margin: 16mm; }
+    :root {
+      --blue-900:#0b2d5c;
+      --blue-800:#0f3d79;
+      --blue-700:#1c5fb8;
+      --blue-500:#2d7ff9;
+      --blue-200:#d7e7ff;
+      --ink:#11243a;
+      --muted:#4b5f79;
+      --panel:#f5f9ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+      color: var(--ink);
+      line-height: 1.6;
+      background: white;
+    }
+    .cover {
+      min-height: 270mm;
+      background: linear-gradient(140deg, var(--blue-900), var(--blue-700));
+      color: white;
+      padding: 36mm 20mm;
+      page-break-after: always;
+      position: relative;
+      overflow: hidden;
+    }
+    .cover::before, .cover::after {
+      content:"";
+      position: absolute;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.1);
+    }
+    .cover::before { width: 220mm; height: 220mm; right: -100mm; top: -60mm; }
+    .cover::after { width: 140mm; height: 140mm; left: -50mm; bottom: -50mm; }
+    .badge { display:inline-block; padding: 6px 12px; border:1px solid rgba(255,255,255,.4); border-radius:999px; font-size: 12px; }
+    h1 { font-size: 44px; margin: 24px 0 8px; line-height: 1.2; }
+    .subtitle { font-size: 20px; opacity: .95; margin: 0; }
+    .author { margin-top: 120mm; font-size: 14px; opacity:.9; }
+
+    .page { page-break-after: always; }
+    .section-title {
+      color: var(--blue-800);
+      font-size: 28px;
+      margin: 0 0 12px;
+      border-left: 6px solid var(--blue-500);
+      padding-left: 10px;
+    }
+    .lead {
+      background: var(--panel);
+      border: 1px solid var(--blue-200);
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin-bottom: 18px;
+      color: var(--muted);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 18px;
+      font-size: 13px;
+    }
+    th, td { border: 1px solid #bfd6ff; padding: 10px; vertical-align: top; }
+    th { background: #ecf4ff; color: var(--blue-900); }
+    ul, ol { margin: 8px 0 12px 20px; }
+    .card-grid { display:grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .card {
+      border: 1px solid #c9dcff;
+      border-radius: 12px;
+      padding: 12px;
+      background: #fbfdff;
+    }
+    .card h4 { margin: 0 0 6px; color:var(--blue-800); }
+    .small { font-size: 12px; color: var(--muted); }
+    .img-wrap {
+      border: 1px solid #c9dcff;
+      border-radius: 14px;
+      padding: 10px;
+      margin: 14px 0;
+      background: #fff;
+    }
+    .img-wrap img { width: 100%; height: auto; display:block; }
+    .checklist li { margin-bottom: 6px; }
+    .final {
+      background: linear-gradient(140deg, #edf4ff, #f8fbff);
+      border: 1px solid #c7ddff;
+      border-radius: 14px;
+      padding: 14px;
+    }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <span class="badge">2026 실전 가이드 · 초보자용</span>
+    <h1>ChatGPT Pro<br>결제자 지침서</h1>
+    <p class="subtitle">일반 모드와 Pro의 차이부터, 바로 써먹는 디테일 사용법까지</p>
+    <p class="author">작성: AI 활용 실무 가이드팀</p>
+  </section>
+
+  <section class="page">
+    <h2 class="section-title">1. 가장 먼저: 일반 모드 vs Pro 모드 핵심 차이</h2>
+    <p class="lead">초보자가 가장 헷갈려 하는 것은 “결제하면 뭐가 달라지나?”입니다. 아래 표는 실제 사용 체감 중심으로 정리했습니다.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>구분</th>
+          <th>일반 모드</th>
+          <th>Pro 모드</th>
+          <th>초보자 체감 포인트</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>응답 품질</td>
+          <td>기본 수준의 답변, 상황에 따라 추상적일 수 있음</td>
+          <td>더 긴 문맥, 정교한 추론, 고난도 요청에서 안정적</td>
+          <td>보고서/기획서 초안의 완성도 차이가 큼</td>
+        </tr>
+        <tr>
+          <td>속도·혼잡 시간대</td>
+          <td>혼잡 시 체감 지연 가능</td>
+          <td>상대적으로 안정적인 우선 처리 경험</td>
+          <td>업무 마감 직전 사용성에 영향</td>
+        </tr>
+        <tr>
+          <td>고급 기능 접근</td>
+          <td>일부 기능 제한</td>
+          <td>고급 모델/도구 사용 범위가 넓음</td>
+          <td>문서·코드·분석을 한 번에 처리 가능</td>
+        </tr>
+        <tr>
+          <td>긴 작업 유지력</td>
+          <td>긴 대화에서 맥락 이탈 가능</td>
+          <td>복잡한 조건을 오래 유지하며 수행</td>
+          <td>반복 수정 작업에서 시간 절약</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="img-wrap">
+      <img src="assets/pro-compare-chart.svg" alt="일반 모드와 Pro 모드 역량 비교 도표" />
+      <p class="small">도표 1. 일반 모드 대비 Pro 모드의 실사용 효율 비교</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2 class="section-title">2. Pro를 쓰면 구체적으로 뭐가 좋아지나요?</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h4>① 업무 결과물 품질 향상</h4>
+        <p>단순 요약을 넘어 <b>구조화된 결과물</b>(목차, 핵심 메시지, 근거, 실행안)로 받기 쉬워집니다.</p>
+      </article>
+      <article class="card">
+        <h4>② 반복 작업 자동화</h4>
+        <p>프롬프트 템플릿을 저장해 두면 메일 작성, 회의록 정리, SNS 초안 생성이 빨라집니다.</p>
+      </article>
+      <article class="card">
+        <h4>③ 복합 요청 처리</h4>
+        <p>“요약 + 표 생성 + 발표 대본 + 체크리스트”처럼 한 번에 여러 산출물 생성이 수월합니다.</p>
+      </article>
+      <article class="card">
+        <h4>④ 실수 감소</h4>
+        <p>조건을 명시하면 형식 누락, 톤 불일치, 항목 빠짐 같은 실무 오류가 줄어듭니다.</p>
+      </article>
+    </div>
+
+    <h3>초보자 필수 공식 프롬프트</h3>
+    <ol>
+      <li><b>역할 지정:</b> “너는 7년차 마케팅 매니저야.”</li>
+      <li><b>결과 형식 지정:</b> “표 + 핵심 5줄 + 실행 일정표로.”</li>
+      <li><b>제약 조건:</b> “용어는 쉬운 한국어, 900자 이내.”</li>
+      <li><b>검증 요청:</b> “누락 항목이 있으면 마지막에 자체점검표를 붙여줘.”</li>
+    </ol>
+
+    <div class="img-wrap">
+      <img src="assets/pro-workflow.svg" alt="Pro 모드 실전 사용 워크플로우" />
+      <p class="small">도표 2. Pro 모드로 결과물을 만드는 5단계 워크플로우</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <h2 class="section-title">3. 이외 반드시 알아야 할 기능들</h2>
+    <h3>A. 프로젝트형 대화 관리</h3>
+    <ul class="checklist">
+      <li>하나의 긴 대화에 모든 요청을 섞지 말고, <b>주제별 대화방</b>으로 분리하세요.</li>
+      <li>대화방 첫 메시지에 “목표/대상/톤/금지사항”을 적으면 품질이 급상승합니다.</li>
+      <li>중간 결과가 마음에 들면 “이 버전을 기준안(v1)으로 기억”이라고 고정하세요.</li>
+    </ul>
+
+    <h3>B. 고급 출력 품질 끌어올리는 팁</h3>
+    <ul class="checklist">
+      <li><b>Before/After 방식:</b> 기존 문장을 붙이고 “어색한 부분을 수정해줘”라고 요청.</li>
+      <li><b>평가기준 선제 제시:</b> 정확성/명확성/실행가능성/톤일관성 4가지로 자체평가 요구.</li>
+      <li><b>재작성 루프:</b> 1차→2차→최종본으로 단계화하면 결과 편차가 줄어듭니다.</li>
+    </ul>
+
+    <h3>C. 실수 방지 체크리스트 (초보자용)</h3>
+    <div class="final">
+      <ol>
+        <li>프롬프트에 대상 독자(초급/중급/전문가)를 썼는가?</li>
+        <li>분량(예: 1,200자)과 형식(표/불릿/문단)을 명시했는가?</li>
+        <li>금지사항(과장 표현 금지, 출처 없는 수치 금지)을 넣었는가?</li>
+        <li>최종 출력 전에 “오탈자/중복/누락 점검”을 요청했는가?</li>
+      </ol>
+      <p><b>한 줄 요약:</b> Pro의 핵심은 “좋은 답을 더 빨리 얻는 것”이 아니라, <b>일관되게 실무급 결과를 재현하는 것</b>입니다.</p>
+    </div>
+  </section>
+</body>
+</html>

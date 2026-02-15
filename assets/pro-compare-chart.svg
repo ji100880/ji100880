@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f8ff"/>
+      <stop offset="100%" stop-color="#e7f0ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="url(#bg)"/>
+  <text x="60" y="70" font-size="38" fill="#0b2d5c" font-family="Arial">일반 모드 vs Pro 모드 성능 비교</text>
+
+  <g font-family="Arial" font-size="24" fill="#25486f">
+    <text x="80" y="150">응답 정확도</text>
+    <text x="80" y="230">복합 작업 처리</text>
+    <text x="80" y="310">긴 문맥 유지</text>
+    <text x="80" y="390">속도 안정성</text>
+    <text x="80" y="470">결과물 완성도</text>
+  </g>
+
+  <g>
+    <rect x="320" y="120" width="320" height="40" rx="10" fill="#b9d0f7"/>
+    <rect x="320" y="200" width="290" height="40" rx="10" fill="#b9d0f7"/>
+    <rect x="320" y="280" width="260" height="40" rx="10" fill="#b9d0f7"/>
+    <rect x="320" y="360" width="300" height="40" rx="10" fill="#b9d0f7"/>
+    <rect x="320" y="440" width="280" height="40" rx="10" fill="#b9d0f7"/>
+
+    <rect x="700" y="120" width="430" height="40" rx="10" fill="#2d7ff9"/>
+    <rect x="700" y="200" width="450" height="40" rx="10" fill="#2d7ff9"/>
+    <rect x="700" y="280" width="420" height="40" rx="10" fill="#2d7ff9"/>
+    <rect x="700" y="360" width="400" height="40" rx="10" fill="#2d7ff9"/>
+    <rect x="700" y="440" width="460" height="40" rx="10" fill="#2d7ff9"/>
+  </g>
+
+  <g font-family="Arial" font-size="20" fill="#0b2d5c">
+    <text x="320" y="95">일반 모드</text>
+    <text x="700" y="95">Pro 모드</text>
+  </g>
+</svg>
